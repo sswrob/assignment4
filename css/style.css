@@ -1,0 +1,593 @@
+/*GLOBAL CSS START*/
+*{
+	margin:0;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+	width:1140px;
+	margin:0 auto;
+}
+
+/*GLOBAL CSS END*/
+
+
+
+/*TOPBAR CSS START*/
+
+header {
+    background: linear-gradient(to right,#00867d,#0090a0);
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+}
+.logo{
+	float: left;
+	width:30%;
+}
+.menubar{
+	float: left;
+    width:70%;
+}
+.menubar ul{
+    float: right;
+    list-style: none;
+}
+.menubar ul li{
+    float: left;
+}
+.menubar ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 15px 20px;
+    transition: all 0.5s linear;
+}
+.menubar ul li:last-child {
+    background:#00c29e;
+
+}
+.menubar ul li a:hover {
+    background:#00c29e;
+}
+/*TOPBAR CSS END*/
+
+/*BANNER CSS START*/
+
+.banner {
+    background-image: url(../image/banner.jpg);
+    float: left;
+    width: 100%;
+    min-height: 650px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.banner:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+} 
+.banner .text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    z-index: 1;
+}
+span.highlight {
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.text h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.btn {
+    margin: 0 10px;
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    border: 2px solid;
+    margin-top: 65px;
+    border-radius: 5px;
+}
+.btn1 {
+    background: linear-gradient(to right,#00867d,#0090a0);
+}
+
+.btn2:hover {
+    background: linear-gradient(to right,#00867d,#0090a0);
+}
+/*BANNER CSS END*/
+/*SERVICES CSS START*/
+
+section.service {
+    background: #e9e9e9;
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+}
+.texts {
+    text-align: center;
+}
+
+.texts h2 {
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 30px;
+}
+
+.texts p {
+    margin: 30px 0 40px;
+    font-size: 20px;
+    padding: 0 10%;
+    line-height: 1.6;
+}
+.texts_box {
+    width: 22%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 1.2%;
+    text-align: center;
+    background: #fff;
+    min-height: 410px;
+  }
+.bg1 {
+    border-bottom: 2px solid #bab9b987;
+    padding: 25px 0 5px;
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+p {
+    font-size: 16px;
+    padding: 15px 25px;
+    line-height: 1.6;
+    color: #222;
+}
+/*SERVICES CSS END
+
+/*WORK START*/
+
+
+.works{
+    float: left;
+    width: 100%;
+    padding:60px 0;
+    }
+.works h2 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.function{
+   float: left;
+   width: 100%;
+}
+.function .phone{
+   float: left;
+   width: 40%;
+   text-align: right;
+}
+.function .phone img {
+    width: 45%;
+}
+.function .func-list{
+   float: left;
+   width: 57%;
+   display: inline-block;
+   padding: 0% 0 0 3%;
+}
+.function .func-list ul{
+   float: left;
+   width: 100%;
+   list-style: none;
+   font-size: 20px;
+}
+.function .func-list ul li {
+   margin: 4% 0;
+   line-height: 1.7;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+.function .func-list ul li .pointer{
+   width: 60px;
+   height: 60px;
+   line-height: 60px;
+   border: 2px solid #04b3a7;
+   text-align: center;
+   border-radius: 50%;
+   float: left;
+   margin-right:20px;
+   font-size: 35px;
+}
+.function .func-links{
+   float: left;
+   width: 100%;}
+
+.function .func-links a img {
+    margin-left: 2%;
+    width: 175px;
+    height: 60px;
+    margin-top: 3%;
+}
+
+/*WORK END*/
+
+/* Our Cities section start*/
+
+.cities{
+    float: left;
+    width: 100%;
+    background: #e9e9e9;
+    padding: 80px 0;
+}
+
+.cities h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.cities .city {
+    float: left;
+    width: 22%;
+    margin: 1%;
+    text-align: initial;
+}
+
+.cities .city img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cities .city h1 {
+    text-align: initial;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.cities .city ul {
+    list-style: none;
+}
+
+.cities .city ul li {
+    position: relative;
+}
+
+.cities .city ul li img {
+    height: 30px;
+    width: 35px;
+    margin-right: 5%;
+}
+
+.cities .city ul li p{
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    font-size: 18px;
+}
+/* Our Cities section end*/
+
+/*Testimonial Css START*/
+
+
+.testimonial{
+    background-image:url(../image/ts1.png);
+    min-height: 450px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.ts2 {
+    color: #fff;
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ts2_text2 {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10%;
+    display: inline-block;
+}
+h1.ts2_text1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    
+}
+.customer {
+    width: 85%;
+    float: left;
+    margin-top: 4%;
+}
+.s2 {
+    font-size: 95px;
+    position: absolute;
+    left: 7%;
+    top: 17%;
+    margin-right: 16px;
+}
+
+img.customer_img {
+    border-radius: 70px;
+    background-size: cover;
+    width: 100px;
+}
+
+span.customer_img {
+    position: absolute;
+    top: 80%;
+    font-size: 25px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+/*Testimonial Css END*/
+
+
+/*PLAN CSS START*/
+.plans{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+    background: #e9e9e9;
+}
+
+.plans h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.plans .package {
+    background: #fff;
+    float: left;
+    width: 30.33%;
+    padding: 4% 0;
+    margin: 1.5%;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px #999;
+}
+
+.plans .package h2 {
+    text-transform: uppercase;
+    font-size: 25;
+    font-weight: 400;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.plans .package h1{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plans .package h1 span{
+    font-size: 45px;
+}
+
+.plans .package ul{
+    list-style: none;
+    padding: 5% 10% 10% 5%;
+}
+
+.plans .package ul li{
+    
+    font-size: 15px;    
+    line-height: 1.6;   
+    text-align: initial;
+    color: #222;
+    font-weight: 400;
+}
+
+.plans .package ul li i{    
+    font-size: 18px;    
+    color: #009688; 
+    margin: 4%;
+}
+
+.plans .package .signup{
+    
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #009688;
+    padding: 4%;
+    border-radius: 5px;
+    color: #222;
+    font-weight: 400;
+}
+
+.plans .package:hover {
+    background: #009688;
+    color: #fff;
+}
+
+.plans .package:hover ul li {
+
+    color: #fff;
+}
+.plans .package:hover .signup {
+    background: #fff;
+    color: #009688;
+}
+
+
+
+/*PLAN CSS END*/
+/*CONNECT CSS START*/
+
+
+    .connection{
+        float: left;
+        width: 100%;
+        padding: 5% 0;
+    }
+    .connection h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 3%;
+        font-size: 35px;
+        color: #222;
+    }
+    .inputs{
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 30%;
+    }
+    .inputs input[type="text"], .inputs input[type="email"]{
+        display: block;
+        width: 100%;
+        border: none;
+        background: #e9e9e9;
+        margin: 5% 0;
+        border-radius: 5px;
+        padding: 3%;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+    }
+    .inputs input[type="text"]:hover, .inputs input[type="email"]:hover, .inputs input[type="text"]:focus, .inputs input[type="email"]:focus{
+        border: 2px solid #008882;
+        outline: 0;
+        transition: all 0.2s ease-in;
+    }
+
+    .inputs select{
+        display: block;
+        width: 100%;
+        margin: 5% 0;
+        border-radius: 5px;
+        background: #e9e9e9;
+        border: 2px solid #fff;
+        color: #757a84;
+        padding: 3%;
+        box-sizing: border-box;
+    }
+    .inputs select:hover, .inputs select:focus{
+        outline: none;
+        border: 2px solid #008882;
+        transition: all 0.2s ease-in;
+    }
+
+    .btn.btn4 {
+     padding: 15px;
+    font-size: 15px;
+    background: transparent;
+    border: 4px solid #008882;
+    border-radius: 10px;
+    margin: 35px 0 15px; 
+    margin-left: 30%;
+}
+  
+.btn4:hover{
+background:#008882;
+color:#fff;
+}
+
+    
+/*CONNECT CSS END*/
+
+
+
+/*FOOTER CSS*/
+
+.footer{
+    background-image:linear-gradient(to right, rgba(12, 54, 54, 0.88), 
+        rgba(12, 54, 54, 0.88)),url(../image/prt2.jpg);
+    min-height: 600px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.map {
+    float: left;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+i#place {
+    font-size: 35px;
+    position: absolute;
+    bottom: 10%;
+    left: 23%;
+}
+
+.footer_text {
+    float: left;
+    width: 45%;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+h1.lst {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+
+li.lst1 {
+    margin: 16px 0;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer_img {
+    margin-top: 12%;
+}
+
+h1.ls {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.left {
+    margin-left: 35px;
+}
+
+i#radio {
+    font-size: 25px;
+    position: absolute;
+    top: 1%;
+}
+img.ls2 {
+    position: absolute;
+    top: 5px;
+    width: 21px;
+}
+
+img.ls1 {
+    margin-right: 10px;
+}
+
+/*FOOTER CSS END*/
