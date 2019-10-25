@@ -514,8 +514,8 @@ color:#fff;
 /*FOOTER CSS*/
 
 .footer{
-    background-image:linear-gradient(to right, rgba(12, 54, 54, 0.88), 
-        rgba(12, 54, 54, 0.88)),url(../image/prt2.jpg);
+    background-image:linear-gradient(to right, rgba(7, 33, 33, 0.88), 
+        rgba(7, 33, 33, 0.88)),url(../image/prt2.jpg);
     min-height: 600px;
     float: left;
     background-size: 100% 100%;
